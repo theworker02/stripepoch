@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/stripepoch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strip numeric epoch values, ranges, and human-readable units.",
+  "bin": {
+    "stripepoch": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/stripepoch.git"
+  },
+  "homepage": "https://theworker02.github.io/stripepoch/",
+  "keywords": [
+    "strip",
+    "epoch",
+    "number",
+    "cli",
+    "toolkit"
+  ]
+}
